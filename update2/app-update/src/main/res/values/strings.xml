@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">andcup-lib-update</string>
+
+    <string name="update_ok">立即升级</string>
+
+    <string name="update">软件更新</string>
+    <string name="task_download_start">下载应用</string>
+    <string name="task_download_pause">已暂停下载 %s</string>
+    <string name="task_download_progress">正在下载 %s</string>
+    <string name="task_download_finish">打开应用</string>
+    <string name="task_disabled">任务无效(下载地址无效或者无法运行app)</string>
+    <string name="task_download_mobile">当前正使用3G/4G,建议您切换到wifi环境..</string>
+    <string name="download_continue">继续下载</string>
+    <string name="latest">当前版本已经是最新版本</string>
+</resources>

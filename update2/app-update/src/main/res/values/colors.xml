@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_ff6836">@color/red_FF6E40</color>
+    <color name="red_FF6E40">#FF6E40</color>
+    <color name="black_2d2d35">#2d2d35</color>
+    <color name="black_ababab">#ABABAB</color>
+    <color name="gray_666666">#666666</color>
+    <color name="red_d5605f">#d5605f</color>
+    <color name="white_ededed">#ededed</color>
+    <color name="black_292931">#292931</color>
+
+    <color name="tran">#00FFFFFF</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black_b2b2b2">#b2b2b2</color>
+    <color name="gray_333">#333333</color>
+    <color name="gray_ccc">#cccccc</color>
+    <color name="blue_3e8be8">#3e8be8</color>
+    <color name="blue_84c1ff">#84C1FF</color>
+    <color name="blue_0072e3"> #0072E3</color>
+
+
+    <color name="app_theme_title_color">@color/black_292931</color>
+    <color name="app_theme_text_color">@color/gray_666666</color>
+    <color name="app_theme_common_color">@color/white</color>
+    <color name="app_theme_action_bar_color">@color/blue_3e8be8</color>
+    <color name="app_theme_divider">@color/white_ededed</color>
+    <color name="black_666">#666</color>
+    <color name="app_text_color">@color/gray_666666</color>
+    <color name="gray_8a">#8A8A8A</color>
+
+    <color name="black_20p">#33000000</color>
+
+
+    <color name="yellow_ffb72b">#ffb72b</color>
+
+    <dimen name="px10">10px</dimen>
+
+    <dimen name="px20">20px</dimen>
+    <dimen name="px24">24px</dimen>
+    <dimen name="px26">26px</dimen>
+    <dimen name="px28">28px</dimen>
+    <dimen name="px30">30px</dimen>
+    <dimen name="px36">36px</dimen>
+    <dimen name="px80">80px</dimen>
+    <dimen name="px100">100px</dimen>
+    <dimen name="px194">194px</dimen>
+    <dimen name="px130">130px</dimen>
+    <dimen name="px150">150px</dimen>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="300px"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blue_3e8be8">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:textSize="@dimen/px36"
+            android:textColor="@color/white"
+            android:padding="@dimen/px24"
+            android:lineSpacingExtra="@dimen/px10"
+            android:text="@string/update"
+            android:gravity="center"
+
+            />
+        <ImageButton
+            android:layout_width="@dimen/px80"
+            android:layout_height="@dimen/px80"
+            android:src="@drawable/ic_close"
+            android:background="@null"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ib_close"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black_20p"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        android:minHeight="@dimen/px100"
+        android:textSize="@dimen/px28"
+        android:textColor="@color/gray_666666"
+        android:padding="@dimen/px24"
+        android:lineSpacingExtra="@dimen/px10"
+        />
+
+    <com.andcup.widget.AutoRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px80"
+        android:paddingLeft="@dimen/px30"
+        android:paddingRight="@dimen/px30"
+        android:layout_marginBottom="@dimen/px10"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pb_update"
+            android:layout_centerInParent="true"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:progressDrawable="@drawable/layer_update"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_download"
+            android:background="@drawable/selector_update"
+            android:text="@string/update_ok"
+            android:textColor="@color/white"
+            android:textSize="30px"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+</com.andcup.widget.AutoLinearLayout>
